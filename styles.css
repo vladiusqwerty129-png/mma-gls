@@ -423,8 +423,8 @@ h3 { font-size: 1.4rem; }
 }
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
 }
 .team-card {
   text-align: center;
@@ -594,6 +594,7 @@ h3 { font-size: 1.4rem; }
   .programs-grid { grid-template-columns: 1fr; }
   .program-featured { grid-template-columns: 1fr; }
   .program-featured .program-img img { height: 250px; min-height: auto; }
+  .team-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (max-width: 768px) {
@@ -649,7 +650,7 @@ h3 { font-size: 1.4rem; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .about-img img { height: 300px; }
-  .team-grid { grid-template-columns: 1fr; }
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .footer-content { grid-template-columns: 1fr; gap: 32px; }
 }
