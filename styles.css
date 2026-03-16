@@ -428,22 +428,24 @@ h3 { font-size: 1.4rem; }
 }
 .team-card {
   text-align: center;
-  padding: 32px;
+  padding: 24px 16px;
   border-radius: var(--radius-lg);
   transition: var(--transition);
+  overflow: hidden;
 }
 .team-card:hover { background: var(--light); }
 .team-photo {
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 auto 20px;
-  border: 4px solid var(--gold);
+  margin: 0 auto 16px;
+  border: 3px solid var(--gold);
+  flex-shrink: 0;
 }
 .team-photo img { width: 100%; height: 100%; object-fit: cover; }
-.team-card h4 { margin-bottom: 8px; font-size: 1.15rem; }
-.team-card p { color: #666; font-size: 0.95rem; line-height: 1.6; }
+.team-card h4 { margin-bottom: 6px; font-size: 1rem; }
+.team-card p { color: #666; font-size: 0.85rem; line-height: 1.5; }
 
 /* ===== CTA BANNER ===== */
 .cta-banner {
@@ -650,7 +652,10 @@ h3 { font-size: 1.4rem; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .about-img img { height: 300px; }
-  .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .team-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .team-photo { width: 100px; height: 100px; }
+  .team-card { padding: 16px 12px; }
+  .team-card p { font-size: 0.8rem; }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .footer-content { grid-template-columns: 1fr; gap: 32px; }
 }
@@ -660,4 +665,9 @@ h3 { font-size: 1.4rem; }
   .hero-ctas { flex-direction: column; }
   .hero-ctas .btn { width: 100%; }
   .contact-form { padding: 28px 20px; }
+  .team-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .team-photo { width: 80px; height: 80px; border-width: 2px; }
+  .team-card { padding: 12px 8px; }
+  .team-card h4 { font-size: 0.9rem; }
+  .team-card p { font-size: 0.75rem; }
 }
