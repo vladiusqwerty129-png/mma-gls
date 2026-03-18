@@ -2,12 +2,12 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --gold: #D4A843;
-  --gold-light: #F0D78C;
-  --gold-dark: #B8912E;
-  --dark: #0D0D0D;
-  --dark-2: #1A1A1A;
-  --dark-3: #2A2A2A;
+  --gold: #F2C94C;
+  --gold-light: #FFE08A;
+  --gold-dark: #D4A843;
+  --dark: #0F1B2D;
+  --dark-2: #162540;
+  --dark-3: #1E3252;
   --gray: #888;
   --light: #F5F5F0;
   --white: #FFFFFF;
@@ -72,12 +72,12 @@ h3 { font-size: 1.4rem; }
   background: var(--gold);
   color: var(--dark);
   padding: 14px 32px;
-  box-shadow: 0 4px 16px rgba(212, 168, 67, 0.3);
+  box-shadow: 0 4px 16px rgba(242, 201, 76, 0.3);
 }
 .btn-primary:hover {
   background: var(--gold-dark);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(212, 168, 67, 0.4);
+  box-shadow: 0 8px 24px rgba(242, 201, 76, 0.4);
 }
 
 .btn-secondary {
@@ -186,7 +186,7 @@ h3 { font-size: 1.4rem; }
   display: flex;
   align-items: center;
   background: var(--dark);
-  background-image: url('https://images.unsplash.com/photo-1555597673-b21d5c935865?w=1600&h=900&fit=crop');
+  background-image: url('hero-bg.png');
   background-size: cover;
   background-position: center;
   padding: 120px 0 80px;
@@ -195,7 +195,7 @@ h3 { font-size: 1.4rem; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(13,13,13,0.92) 0%, rgba(13,13,13,0.7) 50%, rgba(13,13,13,0.85) 100%);
+  background: linear-gradient(135deg, rgba(15,27,45,0.88) 0%, rgba(15,27,45,0.65) 50%, rgba(15,27,45,0.85) 100%);
 }
 
 .hero-content {
@@ -206,8 +206,8 @@ h3 { font-size: 1.4rem; }
 
 .hero-badge {
   display: inline-block;
-  background: rgba(212, 168, 67, 0.15);
-  border: 1px solid rgba(212, 168, 67, 0.3);
+  background: rgba(242, 201, 76, 0.15);
+  border: 1px solid rgba(242, 201, 76, 0.3);
   color: var(--gold-light);
   padding: 8px 20px;
   border-radius: 50px;
@@ -242,7 +242,7 @@ h3 { font-size: 1.4rem; }
 
 /* ===== BENEFITS BAR ===== */
 .benefits-bar {
-  background: var(--dark-2);
+  background: var(--dark);
   padding: 48px 0;
 }
 .benefits-grid {
@@ -267,7 +267,7 @@ h3 { font-size: 1.4rem; }
 }
 .section-tag {
   display: inline-block;
-  background: rgba(212, 168, 67, 0.1);
+  background: rgba(242, 201, 76, 0.12);
   color: var(--gold-dark);
   padding: 6px 16px;
   border-radius: 50px;
@@ -375,7 +375,7 @@ h3 { font-size: 1.4rem; }
 }
 .age-tag {
   display: inline-block;
-  background: rgba(212, 168, 67, 0.1);
+  background: rgba(242, 201, 76, 0.12);
   color: var(--gold-dark);
   padding: 6px 14px;
   border-radius: 50px;
@@ -560,7 +560,7 @@ h3 { font-size: 1.4rem; }
   padding: 80px 0;
   background: var(--dark);
   text-align: center;
-  background-image: linear-gradient(135deg, var(--dark) 0%, var(--dark-2) 100%);
+  background-image: linear-gradient(135deg, var(--dark-2) 0%, var(--dark) 100%);
 }
 .cta-banner h2 { color: var(--white); margin-bottom: 16px; }
 .cta-banner p { color: rgba(255,255,255,0.6); font-size: 1.15rem; margin-bottom: 32px; max-width: 550px; margin-left: auto; margin-right: auto; }
@@ -592,7 +592,7 @@ h3 { font-size: 1.4rem; }
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: rgba(212, 168, 67, 0.15);
+  background: rgba(242, 201, 76, 0.15);
   color: var(--gold-dark);
   display: flex;
   align-items: center;
@@ -635,7 +635,7 @@ h3 { font-size: 1.4rem; }
   outline: none;
   border-color: var(--gold);
   background: var(--white);
-  box-shadow: 0 0 0 4px rgba(212, 168, 67, 0.1);
+  box-shadow: 0 0 0 4px rgba(242, 201, 76, 0.12);
 }
 .form-group input::placeholder { color: #BBB; }
 
